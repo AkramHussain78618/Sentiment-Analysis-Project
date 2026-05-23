@@ -1,0 +1,24 @@
+# ============================================================
+# requirements.txt
+# ============================================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# ============================================================
+
+# Web framework — used to build our backend server
+Flask==3.0.3
+
+# VADER Sentiment Analysis — pretrained model for reviews/social media
+vaderSentiment==3.3.2
+
+# TextBlob — simple NLP library for sentiment analysis
+textblob==0.18.0
+
+# pandas — for reading and processing the CSV dataset
+pandas==2.2.2
+
+# numpy — required by pandas internally
+numpy==1.26.4
+
+# matplotlib — for generating charts (optional feature)
+matplotlib==3.9.0
