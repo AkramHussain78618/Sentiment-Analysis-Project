@@ -3,7 +3,7 @@
 > A beginner-friendly NLP project that uses **pretrained AI models** (VADER & TextBlob) to analyze the sentiment of Amazon customer reviews — built with **Python**, **Flask**, **HTML**, and **CSS**.
 
 ## Live Demo
-https://akram-sentiment-analysis.onrender.com/
+https://sentiment-analysis-project-ezbd.onrender.com/
 
 ## 📸 Project Preview
 
