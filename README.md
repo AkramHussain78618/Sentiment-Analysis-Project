@@ -56,7 +56,7 @@ sentiment-analysis/
 │   ├── sentiment_input_page.png
 │   ├── product_review_analysis.png
 │   ├── positive_sentiment_result.png
-│   └── negative_sentiment_review.png
+│   └── negative_sentiment_result.png
 │
 └── README.md
 ```
@@ -121,7 +121,7 @@ http://127.0.0.1:5000
 
 ## Negative Sentiment Prediction
 
-![Negative Sentiment Prediction](screenshots/negative_sentiment_review.png)
+![Negative Sentiment Prediction](screenshots/negative_sentiment_result.png)
 
 ---
 
