@@ -1,182 +1,145 @@
-# 🛒 Amazon Review Sentiment Analyzer
+# Sentiment Analysis Web Application
 
-> A beginner-friendly NLP project that uses **pretrained AI models** (VADER & TextBlob) to analyze the sentiment of Amazon customer reviews — built with **Python**, **Flask**, **HTML**, and **CSS**.
-
----
-
-## 📸 Project Preview
-
-| Section | Description |
-|---|---|
-| 🏠 Home Page | Hero banner, how-it-works steps |
-| 🔬 Analyzer | Paste any review, click Analyze |
-| 📊 Results | Emoji, color-coded label, score bars |
-| 📌 Samples | Click pre-loaded sample reviews |
-| 📋 Dataset | Preview table of Amazon reviews |
-| 🧠 Model Info | Explanation of VADER & TextBlob |
+A Machine Learning and Natural Language Processing (NLP) based web application that analyzes customer or product reviews and classifies them as **Positive** or **Negative** sentiment.
 
 ---
 
-## 🚀 How to Run This Project
+## Overview
 
-### Step 1: Make sure Python is installed
-```bash
-python --version
-# Should show Python 3.8 or higher
+This project is designed to perform sentiment analysis on textual reviews using a trained machine learning model. Users can enter a review through the web interface, and the application predicts the sentiment in real time.
+
+The application demonstrates the practical implementation of:
+
+* Text preprocessing
+* NLP techniques
+* Machine Learning classification
+* Web application deployment using Flask
+
+---
+
+## Features
+
+* Real-time sentiment prediction
+* Positive and negative review classification
+* Simple and responsive user interface
+* NLP-based text processing
+* Machine Learning model integration
+* Easy-to-use web application
+
+---
+
+## Technologies Used
+
+* Python
+* Flask
+* Scikit-learn
+* Pandas
+* Natural Language Processing (NLP)
+* HTML
+* CSS
+
+---
+
+## Project Structure
+
+```plaintext id="lvb3ub"
+sentiment-analysis/
+│
+├── app.py
+├── model.pkl
+├── vectorizer.pkl
+├── requirements.txt
+├── templates/
+├── static/
+├── screenshots/
+│   ├── sentiment_input_page.png
+│   ├── product_review_analysis.png
+│   ├── positive_sentiment_result.png
+│   └── negative_sentiment_review.png
+│
+└── README.md
 ```
 
-### Step 2: (Optional but recommended) Create a virtual environment
-```bash
-# Create virtual environment
-python -m venv venv
+---
 
-# Activate it — on Windows:
-venv\Scripts\activate
+## Installation & Setup
 
-# Activate it — on Mac/Linux:
-source venv/bin/activate
+### Clone the Repository
+
+```bash id="z3kmhj"
+git clone <your-github-repository-link>
 ```
 
-### Step 3: Install all required libraries
-```bash
+### Navigate to the Project Directory
+
+```bash id="ud0f8m"
+cd sentiment-analysis
+```
+
+### Install Required Dependencies
+
+```bash id="3m4s43"
 pip install -r requirements.txt
 ```
 
-### Step 4: Download TextBlob's language data (run once)
-```bash
-python -m textblob.download_corpora
-```
+### Run the Application
 
-### Step 5: Run the Flask app
-```bash
+```bash id="kfl8db"
 python app.py
 ```
 
-### Step 6: Open your browser
-```
-http://localhost:5000
-```
+### Access the Application
 
----
+Open your browser and visit:
 
-## 📁 Project Folder Structure
-
-```
-sentiment_project/
-│
-├── app.py                    ← Main Flask backend (Python)
-├── requirements.txt          ← List of libraries to install
-├── README.md                 ← This file
-├── Amazon_Reviews.csv        ← Dataset file
-│
-├── templates/
-│   └── index.html            ← Main HTML web page
-│
-└── static/
-    
-    │   └── style.css         ← All styling / design
-    
-        └── main.js           ← Frontend JavaScript logic
+```plaintext id="72x3tx"
+http://127.0.0.1:5000
 ```
 
 ---
 
-## 🧠 How Sentiment Analysis Works
+# Application Screenshots
 
-Sentiment analysis is the process of identifying whether a piece of text expresses a **positive**, **negative**, or **neutral** emotion.
+## Sentiment Input Interface
 
-### Two Models Used:
-
-#### 🧪 VADER (Primary)
-- **V**alence **A**ware **D**ictionary and s**E**ntiment **R**easoner
-- Pretrained on social media, reviews, and short texts
-- Returns a **compound score** from -1.0 to +1.0
-  - ≥ 0.05 → **Positive**
-  - ≤ -0.05 → **Negative**
-  - In between → **Neutral**
-
-#### 📝 TextBlob (Secondary)
-- Simple NLP library built on NLTK
-- Returns **polarity** (-1 to +1) and **subjectivity** (0 to 1)
-- Good for comparing with VADER results
-
-### Why Pretrained Models?
-
-| Pretrained Models ✅ | Training Your Own ❌ |
-|---|---|
-| No data collection needed | Need thousands of labeled examples |
-| Ready to use immediately | Takes hours/days to train |
-| Built by NLP experts | Risk of poor accuracy |
-| Free and open source | Requires GPU / cloud resources |
-| Perfect for beginners | Complex to implement |
+![Sentiment Input Interface](screenshots/sentiment_input_page.png)
 
 ---
 
-## 📊 Dataset
+## Product Review Analysis
 
-- **File**: `Amazon_Reviews.csv`
-- **Columns used**: `Rating`, `Review Title`, `Review Text`
-- **Ratings**: 1 star to 5 stars
-- **Source**: Amazon customer reviews
+![Product Review Analysis](screenshots/product_review_analysis.png)
 
 ---
 
-## 🛠️ Technologies Used
+## Positive Sentiment Prediction
 
-| Technology | Purpose |
-|---|---|
-| **Python 3** | Backend programming language |
-| **Flask** | Web framework to serve pages & handle requests |
-| **VADER** | Pretrained sentiment analysis model |
-| **TextBlob** | Secondary sentiment analysis model |
-| **pandas** | Reading and processing the CSV dataset |
-| **HTML5** | Web page structure |
-| **CSS3** | Styling and responsive design |
-| **JavaScript** | Frontend interactivity |
-| **Chart.js** | Drawing the bar chart |
+![Positive Sentiment Prediction](screenshots/positive_sentiment_result.png)
 
 ---
 
-## ✨ Project Features
+## Negative Sentiment Prediction
 
-- ✅ Analyze any single review in real-time
-- ✅ Sentiment result with emoji (😊 / 😞 / 😐)
-- ✅ Color-coded result cards (green / red / gray)
-- ✅ Visual score bars (Positive / Negative / Neutral %)
-- ✅ Dual model comparison (VADER + TextBlob)
-- ✅ 6 sample reviews to try instantly
-- ✅ Dataset preview table
-- ✅ Rating distribution bar chart
-- ✅ Fully responsive (works on mobile)
-- ✅ Keyboard shortcut: Ctrl+Enter to analyze
+![Negative Sentiment Prediction](screenshots/negative_sentiment_review.png)
 
 ---
 
-## 📌 Expected Output
+## Future Enhancements
 
-When you type: *"This product is absolutely amazing! Arrived quickly."*
-
-- 😊 **Sentiment: POSITIVE**
-- Positive score bar: ~85%
-- VADER compound: ~0.85
-- TextBlob polarity: ~0.6
-
-When you type: *"Terrible product. Broke after one day. Worst purchase ever."*
-
-- 😞 **Sentiment: NEGATIVE**
-- Negative score bar: ~90%
-- VADER compound: ~-0.87
-- TextBlob polarity: ~-0.7
+* Add Neutral sentiment classification
+* Improve prediction accuracy
+* Deploy the application on cloud platforms
+* Add graphical analytics dashboard
+* Support multilingual sentiment analysis
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-Built as a beginner-friendly internship/portfolio project.  
-Perfect for demonstrating NLP, Flask, and web development skills on GitHub.
+**Akram Hussain M**
 
 ---
 
-## 📄 License
+## License
 
-This project is open source and free to use for learning purposes.
+This project is developed for educational and learning purposes.
