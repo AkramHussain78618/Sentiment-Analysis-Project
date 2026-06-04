@@ -69,7 +69,7 @@ sentiment-analysis/
 ### Clone the Repository
 
 ```bash id="z3kmhj"
-git clone <your-github-repository-link>
+git clone https://github.com/AkramHussain78618/Sentiment-Analysis-Project
 ```
 
 ### Navigate to the Project Directory
