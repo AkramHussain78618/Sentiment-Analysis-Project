@@ -17,7 +17,7 @@ The application demonstrates the practical implementation of:
 * Machine Learning classification
 * Web application deployment using Flask
 
----
+
 
 ## Features
 
@@ -28,7 +28,6 @@ The application demonstrates the practical implementation of:
 * Machine Learning model integration
 * Easy-to-use web application
 
----
 
 ## Technologies Used
 
@@ -40,7 +39,7 @@ The application demonstrates the practical implementation of:
 * HTML
 * CSS
 
----
+
 
 ## Project Structure
 
@@ -62,7 +61,7 @@ sentiment-analysis/
 └── README.md
 ```
 
----
+
 
 ## Installation & Setup
 
@@ -98,7 +97,7 @@ Open your browser and visit:
 http://127.0.0.1:5000
 ```
 
----
+
 
 # Application Screenshots
 
@@ -106,25 +105,25 @@ http://127.0.0.1:5000
 
 ![Sentiment Input Interface](screenshots/sentiment_input_page.png)
 
----
+
 
 ## Product Review Analysis
 
 ![Product Review Analysis](screenshots/product_review_analysis.png)
 
----
+
 
 ## Positive Sentiment Prediction
 
 ![Positive Sentiment Prediction](screenshots/positive_sentiment_result.png)
 
----
+
 
 ## Negative Sentiment Prediction
 
 ![Negative Sentiment Prediction](screenshots/negative_sentiment_result.png)
 
----
+
 
 ## Future Enhancements
 
@@ -134,13 +133,18 @@ http://127.0.0.1:5000
 * Add graphical analytics dashboard
 * Support multilingual sentiment analysis
 
----
+# Author
 
-## Author
+### Hussain bee & Akram Hussain
 
-**Akram Hussain** & **Hussain bee**
+Aspiring Software Developer passionate about
 
----
+Python Development | Web Technologies | AI Development | Artificial Intelligence
+
+
+#  GitHub Support
+
+If you like this project, give it a * on GitHub and support the repository.
 
 ## License
 
