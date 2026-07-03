@@ -4,7 +4,7 @@ A Machine Learning and Natural Language Processing (NLP) based web application t
 
 ## Live Demo
 
-### https://sentiment-analysis-project-ezbd.onrender.com/
+# https://sentiment-analysis-project-ezbd.onrender.com/
 
 ## Overview
 
@@ -133,13 +133,13 @@ http://127.0.0.1:5000
 * Add graphical analytics dashboard
 * Support multilingual sentiment analysis
 
-# Author
+# Authors
 
 ### Hussain bee & Akram Hussain
 
-Aspiring Software Developer passionate about
+Aspiring Software Developers | Python Enthusiasts | Data Analytics & AI Learners
 
-Python Development | Web Technologies | AI Development | Artificial Intelligence
+Passionate about Software Development, Data Analytics, Artificial Intelligence, Web Technologies, Automation, and Problem Solving. Dedicated to continuous learning and building innovative, scalable, and impactful solutions that deliver exceptional user experiences.
 
 
 #  GitHub Support
