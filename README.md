@@ -2,7 +2,7 @@
 
 A Machine Learning and Natural Language Processing (NLP) based web application that analyzes customer or product reviews and classifies them as **Positive** or **Negative** sentiment.
 
-## Live Demo
+# Live Demo
 
 # https://sentiment-analysis-project-ezbd.onrender.com/
 
@@ -135,7 +135,7 @@ http://127.0.0.1:5000
 
 # Authors
 
-### Hussain bee & Akram Hussain
+## Hussain bee & Akram Hussain
 
 Aspiring Software Developers | Python Enthusiasts | Data Analytics & AI Learners
 
